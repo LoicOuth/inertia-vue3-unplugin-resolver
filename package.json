@@ -1,0 +1,42 @@
+{
+  "name": "@louth/inertia-vue3-unplugin-resolver",
+  "version": "1.0.0",
+  "description": "Custom resolver for unplugin-vue-components to auto-import Inertia.js components in Vue 3 projects. Simplifies development by removing the need for manual imports, enhancing code clarity and productivity.",
+  "main": "build/index.js",
+  "type": "module",
+  "files": [
+    "build/src",
+    "build/index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext=.ts",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "pretest": "npm run lint",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "eslint": "9.27.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@inertiajs/vue3": "^2.0.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicOuth/inertia-vue3-unplugin-resolver.git"
+  },
+  "keywords": [
+    "inertia",
+    "vue3",
+    "unplugin",
+    "resolver"
+  ],
+  "author": "Loïc OUTHIER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoicOuth/inertia-vue3-unplugin-resolver/issues"
+  },
+  "homepage": "https://github.com/LoicOuth/inertia-vue3-unplugin-resolver#readme"
+}
